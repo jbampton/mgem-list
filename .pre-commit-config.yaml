@@ -66,7 +66,7 @@ repos:
         description: check spelling with codespell
         args: [--ignore-words=.github/linters/codespell.txt]
   - repo: https://github.com/tcort/markdown-link-check
-    rev: v3.14.2
+    rev: v3.15.0
     hooks:
       - id: markdown-link-check
         name: run markdown-link-check
